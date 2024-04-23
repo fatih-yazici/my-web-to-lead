@@ -12,87 +12,98 @@
 
 <form action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00DO9000003e2fm" method="POST">
 
-    <input type="hidden" name="oid" value="00DO9000003e2fm">
-    <input type="hidden" name="retURL" value="http://www.google.com">
+<input type=hidden name="oid" value="00DO9000003e2fm">
+<input type=hidden name="retURL" value="http://www.google.com">
 
-    <!--  ----------------------------------------------------------------------  -->
-    <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
-    <!--  these lines if you wish to test in debug mode.                          -->
-    <!--  <input type="hidden" name="debug" value=1>                              -->
-    <!--  <input type="hidden" name="debugEmail"                                  -->
-    <!--  value="mailfatihyazici@gmail.com">                                      -->
-    <!--  ----------------------------------------------------------------------  -->
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+<!--  these lines if you wish to test in debug mode.                          -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail"                                  -->
+<!--  value="mailfatihyazici@gmail.com">                                      -->
+<!--  ----------------------------------------------------------------------  -->
 
-    <div class="form-group">
-        <label for="first_name"><b>First Name</b></label>
-        <input id="first_name" maxlength="40" name="first_name" size="20" type="text">
-    </div>
+<label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
 
-    <div class="form-group">
-        <label for="last_name"><b>Last Name</b></label>
-        <input id="last_name" maxlength="80" name="last_name" size="20" type="text">
-    </div>
+<label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
 
-    <div class="form-group">
-        <label for="phone"><b>Phone</b></label>
-        <input id="phone" maxlength="40" name="phone" size="20" type="text">
-    </div>
+<label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
 
-    <div class="form-group">
-        <label for="email"><b>Email</b></label>
-        <input id="email" maxlength="80" name="email" size="20" type="text">
-    </div>
+<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
 
-    <div class="form-group">
-        <label for="vehicle_model"><b>Vehicle Model</b></label>
-        <select id="vehicle_model" name="vehicle_model" title="Vehicle Model">
-            <option value="">--None--</option>
-            <option value="HR-V">HR-V</option>
-            <option value="CR-V">CR-V</option>
-            <option value="CR-V Hybrid">CR-V Hybrid</option>
-            <option value="Passport">Passport</option>
-            <option value="Pilot">Pilot</option>
-            <option value="Civic Sedan">Civic Sedan</option>
-            <option value="Civic Si Sedan">Civic Si Sedan</option>
-            <option value="Accord">Accord</option>
-            <option value="Accord Hybrid">Accord Hybrid</option>
-            <option value="Civic Hatchback">Civic Hatchback</option>
-            <option value="Civic Type R">Civic Type R</option>
-            <option value="Odyssey">Odyssey</option>
-            <option value="Ridgeline">Ridgeline</option>
-            <option value="Prologue">Prologue</option>
-            <option value="CR-V Fuelcell">CR-V Fuelcell</option>
-        </select>
-    </div>
+Vehicle Model:<select  id="00NO9000003ydSz" name="00NO9000003ydSz" title="Vehicle Model"><option value="">--None--</option><option value="HR-V">HR-V</option>
+<option value="CR-V">CR-V</option>
+<option value="CR-V Hybrid">CR-V Hybrid</option>
+<option value="Passport">Passport</option>
+<option value="Pilot">Pilot</option>
+<option value="Civic Sedan">Civic Sedan</option>
+<option value="Civic Si Sedan">Civic Si Sedan</option>
+<option value="Accord">Accord</option>
+<option value="Accord Hybrid">Accord Hybrid</option>
+<option value="Civic Hatchback">Civic Hatchback</option>
+<option value="Civic Type R">Civic Type R</option>
+<option value="Odyssey">Odyssey</option>
+<option value="Ridgeline">Ridgeline</option>
+<option value="Prologue">Prologue</option>
+<option value="CR-V Fuelcell">CR-V Fuelcell</option>
+</select><br>
 
-    <div class="form-group">
-        <label for="company_vehicle"><b>Vehicle For Company?</b></label>
-        <input id="company_vehicle" name="company_vehicle" type="checkbox" value="1">
-    </div>
+Vehicle For Company?:<input  id="00NO9000003ybe5" name="00NO9000003ybe5" type="checkbox" value="1" /><br>
 
-    <div class="form-group">
-        <label for="company"><b>Company</b></label>
-        <input id="company" maxlength="40" name="company" size="20" type="text">
-    </div>
+<label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
 
-    <div class="form-group">
-        <label for="state"><b>State/Province</b></label>
-        <input id="state" maxlength="20" name="state" size="20" type="text">
-    </div>
+State:<select  id="00NO9000003ykpR" name="00NO9000003ykpR" title="State"><option value="">--None--</option><option value="AL: Alabama">AL: Alabama</option>
+<option value="AK: Alaska">AK: Alaska</option>
+<option value="AZ: Arizona">AZ: Arizona</option>
+<option value="AR: Arkansas">AR: Arkansas</option>
+<option value="CA: California">CA: California</option>
+<option value="CO: Colorado">CO: Colorado</option>
+<option value="CT: Connecticut">CT: Connecticut</option>
+<option value="DE: Delaware">DE: Delaware</option>
+<option value="FL: Florida">FL: Florida</option>
+<option value="GA: Georgia">GA: Georgia</option>
+<option value="HI: Hawaii">HI: Hawaii</option>
+<option value="ID: Idaho">ID: Idaho</option>
+<option value="IL: Illinois">IL: Illinois</option>
+<option value="IN: Indiana">IN: Indiana</option>
+<option value="IA: Iowa">IA: Iowa</option>
+<option value="KS: Kansas">KS: Kansas</option>
+<option value="KY: Kentucky">KY: Kentucky</option>
+<option value="LA: Louisiana">LA: Louisiana</option>
+<option value="ME: Maine">ME: Maine</option>
+<option value="MD: Maryland">MD: Maryland</option>
+<option value="MA: Massachusetts">MA: Massachusetts</option>
+<option value="MI: Michigan">MI: Michigan</option>
+<option value="MN: Minnesota">MN: Minnesota</option>
+<option value="MS: Mississippi">MS: Mississippi</option>
+<option value="MO: Missouri">MO: Missouri</option>
+<option value="MT: Montana">MT: Montana</option>
+<option value="NE: Nebraska">NE: Nebraska</option>
+<option value="NV: Nevada">NV: Nevada</option>
+<option value="NH: New Hampshire">NH: New Hampshire</option>
+<option value="NJ: New Jersey">NJ: New Jersey</option>
+<option value="NM: New Mexico">NM: New Mexico</option>
+<option value="NY: New York">NY: New York</option>
+<option value="NC: North Carolina">NC: North Carolina</option>
+<option value="ND: North Dakota">ND: North Dakota</option>
+<option value="OH: Ohio">OH: Ohio</option>
+<option value="OK: Oklahoma">OK: Oklahoma</option>
+<option value="OR: Oregon">OR: Oregon</option>
+<option value="PA: Pennsylvania">PA: Pennsylvania</option>
+<option value="RI: Rhode Island">RI: Rhode Island</option>
+<option value="SC: South Carolina">SC: South Carolina</option>
+<option value="SD: South Dakota">SD: South Dakota</option>
+<option value="TN: Tennessee">TN: Tennessee</option>
+<option value="TX: Texas">TX: Texas</option>
+<option value="UT: Utah">UT: Utah</option>
+<option value="VT: Vermont">VT: Vermont</option>
+<option value="VA: Virginia">VA: Virginia</option>
+<option value="WA: Washington">WA: Washington</option>
+<option value="WV: West Virginia">WV: West Virginia</option>
+<option value="WI: Wisconsin">WI: Wisconsin</option>
+<option value="WY: Wyoming">WY: Wyoming</option>
+</select><br>
 
-    <input type="submit" name="submit">
+<input type="submit" name="submit">
 
 </form>
-
-<style>
-    .form-group {
-        margin-bottom: 10px;
-    }
-
-    .form-group label {
-        display: inline-block;
-        width: 150px;
-        text-align: right;
-        margin-right: 10px;
-    }
-</style>
